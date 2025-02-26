@@ -1,0 +1,84 @@
+/* Card Container */
+.news-card {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    border: 3px solid black;
+  }
+  
+  /* Hover Effect */
+  .news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Source Tag */
+  .news-source {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #34c759;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  /* Image */
+  .news-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Content */
+  .news-content {
+    padding: 15px;
+  }
+  
+  /* Title */
+  .news-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #56ccf2, #2f80ed);
+    color: #222;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  /* Description */
+  .news-description {
+    font-size: 1rem;
+    color: #444;
+    font-weight: 600;
+  }
+  
+  /* Meta Info */
+  .news-meta {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+  }
+  
+  /* Button */
+  .news-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #ff007f;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Button Hover */
+  .news-btn:hover {
+    background: #d60069;
+  }
+  

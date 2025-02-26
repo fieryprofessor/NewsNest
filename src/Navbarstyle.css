@@ -1,0 +1,62 @@
+/* Custom Navbar */
+.custom-navbar {
+    background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59);
+    padding: 12px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Navbar Brand (Logo) */
+  .custom-navbar .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #d1e8ff; /* Soft Blue */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-navbar .navbar-brand:hover {
+    color: #ffffff; /* Brighter on hover */
+  }
+  
+  /* Navbar Links */
+  .custom-navbar .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #b0c4de; /* Light Steel Blue */
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff; /* Slightly brighter on hover */
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Navbar Toggler */
+  .custom-navbar .navbar-toggler {
+    border: none;
+    background: #b0c4de;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .custom-navbar .navbar-toggler-icon {
+    filter: invert(1);
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 992px) {
+    .custom-navbar .navbar-nav {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 10px;
+      border-radius: 10px;
+    }
+  
+    .custom-navbar .nav-link {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  
