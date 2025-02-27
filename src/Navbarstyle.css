@@ -59,4 +59,21 @@
       margin: 5px 0;
     }
   }
+
+  .nav-link {
+    color: white !important;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: lightgray !important;
+  }
+  
+  /* Automatically applied by NavLink when active */
+  .nav-link.active {
+    font-weight: bold;
+    color: yellow !important;
+    border-bottom: 2px solid yellow;
+  }
+  
   
